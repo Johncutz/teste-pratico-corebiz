@@ -1,0 +1,70 @@
+.Contato {
+    position: absolute;
+    width: 195px;
+    height: 101px;
+    left: 868px;
+    top: 53.25px;
+}
+
+.Contato__grupo1 {
+    position: absolute;
+    width: 195px;
+    height: 38px;
+
+}
+
+.Contato__icon1 {
+    position: absolute;
+    width: 16.88px;
+    height: 13.51px;
+
+    top: 12.5px;
+    left: 10px;
+}
+
+.Contato-button1 {
+    position: absolute;
+    width: 185px;
+    height: 38px;
+    border-radius: 5px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    cursor: pointer;
+}
+
+.Contato__grupo2 {
+    position: absolute;
+    width: 195px;
+    height: 38px;
+    top: 60px;
+}
+
+.Contato__icon2 {
+    position: absolute;
+    width: 15.19px;
+    height: 18.58px;
+
+    top: 9.75px;
+    left: 10px;
+
+}
+
+.Contato-button2 {
+    position: absolute;
+    width: 185px;
+    height: 38px;
+    border-radius: 5px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+
+    cursor: pointer;
+}

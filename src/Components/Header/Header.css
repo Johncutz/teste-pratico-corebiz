@@ -1,0 +1,79 @@
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.header__logo {
+    position: absolute;
+    width: 181px;
+    height: 41px;
+    left: 341px;
+    top: 16px;
+    ;
+}
+
+.header__input {
+    position: absolute;
+    width: 718px;
+    height: 23px;
+    left: 643px;
+    top: 28px;
+
+    border: none;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+.header__lupa {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1343px;
+    top: 28px;
+}
+
+.header__user {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1390px;
+    top: 31px;
+}
+
+.header__conta {
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    left: 1404px;
+    top: 31px;
+
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+    color: #7A7A7A;
+
+}
+
+.header__carrinho {
+    position: absolute;
+    width: 37px;
+    height: 18px;
+    left: 1522px;
+    top: 31px;
+
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}

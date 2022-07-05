@@ -1,0 +1,31 @@
+.Localizacao {
+    position: absolute;
+    width: 238px;
+    height: 160px;
+    left: 380px;
+    top: 26.5px;
+
+}
+
+.Localizacao__title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.Localizacao__text {
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    top: 60px;
+
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+.prateleira {
+    position: absolute;
+    width: 1248px;
+    height: 407px;
+    left: 336px;
+    top: 536px;
+
+}
+
+.prateleira__text {
+    position: absolute;
+    width: 148px;
+    height: 28px;
+    left: 80px;
+    top: 20px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.prateleira__Arrow-left {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+
+    top: 203.5px
+}
+
+.prateleira__Arrow-right {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1226px;
+    top: 203.5px;
+}

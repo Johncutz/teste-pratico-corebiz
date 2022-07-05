@@ -1,0 +1,59 @@
+.Banner {
+    position: absolute;
+    width: 1920px;
+    height: 430px;
+    left: 0px;
+    top: 51px;
+}
+
+.Banner__text {
+    position: absolute;
+    width: 452px;
+    height: 147px;
+    left: 380px;
+    top: 205px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40.92px;
+
+    color: #FFFFFF;
+}
+
+.Banner__text-Bigger {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.Banner__bg {
+    position: absolute;
+    width: 989.33px;
+    height: 430px;
+    left: 0px;
+    top: 51px;
+
+}
+
+.Banner__img {
+    position: absolute;
+    width: 1000px;
+    height: 430px;
+    left: 920px;
+    top: 51px;
+
+    background: #FFFFFF;
+    background-blend-mode: multiply;
+}
+
+.Banner__slider {
+    position: absolute;
+    width: 77px;
+    height: 10px;
+    left: 921px;
+    top: 434px;
+}

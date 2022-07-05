@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Header from "./Components/Header/Header";
+import Banner from "./Components/Banner/Banner";
+import Prateleira from "./Components/Prateleira/Prateleira";
+import News from "./Components/News/News";
+import Footer from "./Components/Footer/Footer";
+import api from "./services/api";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import './App.css'
+
+class App extends Component {
+
+  state = {
+    store: [],
+  }
+
+  async componentDidMount() {
+    const response = await api.get('');
+
+    this.setState({store: response.data})
+  }
+
+  render() {
+
+    const {store} = this.state;
+
+    console.log(store)
+
+    return (
+      <div>
+        <Header />
+        <Banner />
+        <Prateleira />
+        <News />
+        <Footer />
+      </div>
+    );
+  }
+  }
 
 export default App;
