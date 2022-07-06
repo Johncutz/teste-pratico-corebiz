@@ -7,6 +7,15 @@
 
 }
 
+.prateleira__itens {
+    position: relative;
+    display: block;
+    width: 240px;
+    float: left;
+    top: 100px;
+    left: 50px;
+}
+
 .prateleira__text {
     position: absolute;
     width: 148px;
@@ -35,4 +44,74 @@
     height: 22px;
     left: 1226px;
     top: 203.5px;
+}
+
+.prateleira__img {
+    width: 180px;
+    height: 160px;
+}
+
+.prateleira__name {
+    position: relative;
+    width: 190px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: center;
+
+    color: #7A7A7A;
+}
+
+.prateleira__price {
+    position: relative;
+    width: 190px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.prateleira__button {
+    position: absolute;
+    width: 125.28px;
+    height: 32.42px;
+    top: 220px;
+    left: 30px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    position: absolute;
+    left: 90px;
 }

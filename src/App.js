@@ -30,7 +30,7 @@ class App extends Component {
       <div>
         <Header />
         <Banner />
-        <Prateleira />
+        <Prateleira store={this.state.store}/>
         <News />
         <Footer />
       </div>
