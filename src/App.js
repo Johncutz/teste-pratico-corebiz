@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import Header from "./Components/Header/Header";
 import Banner from "./Components/Banner/Banner";
 import Prateleira from "./Components/Prateleira/Prateleira";
@@ -10,6 +10,8 @@ import './App.css'
 
 class App extends Component {
 
+
+
   state = {
     store: [],
   }
@@ -17,25 +19,28 @@ class App extends Component {
   async componentDidMount() {
     const response = await api.get('');
 
-    this.setState({store: response.data})
+    this.setState({ store: response.data })
   }
+
+  
 
   render() {
 
-    const {store} = this.state;
-
+    const { store } = this.state;
+    
     console.log(store)
 
     return (
       <div>
         <Header />
         <Banner />
-        <Prateleira store={this.state.store}/>
+        <Prateleira  store={this.state.store} />
         <News />
         <Footer />
-      </div>
+       
+      </div >
     );
   }
-  }
+}
 
 export default App;
