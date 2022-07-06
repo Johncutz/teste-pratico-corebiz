@@ -20,11 +20,9 @@ const Prateleira = (props) => {
                     <img className="prateleira__Arrow-right" src={rightArrow} />
             {props.store.map((store, index) => (
                 <div className="prateleira__itens" key={store.productId}>
-                    <img className={ store.productId  == 2 || 3 ? 'show' : 'hidden'} src={flag} />
+                    <img className={(store.productId  == 2 ||  store.productId  ==  3) ? 'show' : 'hidden'} src={flag} />
                     <img className="prateleira__img" src={store.imageUrl} />
                     <p className="prateleira__name">{store.productName}</p>
-                   
-                    <img id={store.star} />
                     <p className="prateleira__price">por R$ {store.price}</p>
                     <button className="prateleira__button" type="button">COMPRAR</button>
                 </div>
