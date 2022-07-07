@@ -77,3 +77,43 @@
     border: none;
     background-color: white;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .header {
+        position: absolute;
+        width: 320px;
+    }
+
+    .header__logo {
+        position: absolute;
+        width: 109px;
+        height: 25px;
+        left: 106px;
+        top: 30px;
+    }
+
+    .header__input {
+        position: absolute;
+        width: 280px;
+        height: 22px;
+        left: 20px;
+        top: 90px;
+    }
+
+    .header__lupa {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 280px;
+        top: 90px;
+    }
+
+    .header__conta {
+        visibility: hidden;
+    }
+
+    .header__user {
+        visibility: hidden;
+    }
+}

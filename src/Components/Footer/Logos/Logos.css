@@ -43,3 +43,27 @@
 
     color: #FFFFFF;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .Logos__grupo1 {
+        position: absolute;
+        width: 54px;
+        height: 32px;
+        left: -1175px;
+        right: 0px;
+        top: 325px;
+        bottom: 0px;
+    
+    }
+
+    .Logos__grupo2 {
+        position: absolute;
+        width: 54px;
+        height: 32px;
+        left: -1350px;
+        right: 0px;
+        top: 325px;
+        bottom: 0px;
+
+    }
+}

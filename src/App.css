@@ -5,3 +5,11 @@ html {
 
     background: #FFFFFF;
 }
+
+@media (min-width: 320px) and (max-width: 425px){
+    html {
+        position: relative;
+        width: 320px;
+        height: 1324px;
+    }
+}

@@ -57,3 +57,58 @@
     left: 921px;
     top: 434px;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .Banner {
+        position: absolute;
+        width: 320px;
+        height: 192.7px;
+        left: 0px;
+        top: 79.08px;
+
+    }
+
+    .Banner__img {
+        position: absolute;
+        width: 334px;
+        height: 223px;
+        left: -7px;
+        top: 64px;
+    }
+
+    .Banner__bg {
+        visibility: hidden;
+    }
+
+    .Banner__slider {
+        position: absolute;
+        width: 53.84px;
+        height: 7px;
+        left: 133px;
+        top: 251.76px;
+    }
+
+    .Banner__text {
+        position: absolute;
+        width: 280px;
+        height: 135.13px;
+        left: 20px;
+        top: 112.59px;
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 12px;
+    }
+
+    .Banner__text-Bigger {
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 20px;
+    }
+}

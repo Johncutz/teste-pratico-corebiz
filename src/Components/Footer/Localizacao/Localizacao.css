@@ -29,3 +29,30 @@
 
     color: #FFFFFF;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .Localizacao__title {
+        position: absolute;
+        width: 97.24px;
+        height: 38.06px;
+        left: -350px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+
+        
+    }
+
+    .Localizacao__text {
+        position: absolute;
+        width: 287px;
+        height: 110px;
+        left: -350px;
+        right: 0px;
+        bottom: 0px;
+        top: 50px;
+
+        
+    }
+}

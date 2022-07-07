@@ -8,3 +8,12 @@
     background: #000000;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+    .Footer {
+        position: absolute;
+        width: 320px;
+        height: 386px;
+        left: 0px;
+        top: 938px;
+    }
+}

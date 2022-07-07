@@ -77,3 +77,66 @@
     background-color: #000000;
     cursor: pointer;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .News {
+        position: absolute;
+        width: 320px;
+        height: 276px;
+        left: 0px;
+        top: 662px;
+    }
+
+    .News__text {
+        position: absolute;
+        width: 400px;
+        height: 44px;
+        left: 10px;
+        bottom: 200px;
+
+       
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 22px;
+
+
+        display: flex;
+        align-items: center;
+    }
+
+    .News__input-name {
+        position: absolute;
+        width: 288px;
+        height: 48px;
+        left: 16px;
+        right: 0px;
+        bottom: 0px;
+        top: 100px;
+
+       
+    }
+
+    .News__input-email {
+        position: absolute;
+        width: 288px;
+        height: 48px;
+        left: 16px;
+        right: 0px;
+        bottom: 0px;
+        top: 160px;
+    }
+
+    .News__input-submit {
+        position: absolute;
+        width: 288px;
+        height: 48px;
+        left: 16px;
+        right: 0px;
+        bottom: 0px;
+        top: 220px;
+    }
+}

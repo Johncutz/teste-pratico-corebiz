@@ -106,6 +106,7 @@
 
     background-color: #000000;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .hidden {
@@ -125,4 +126,69 @@
     bottom: 500px;
     left: 0px;
     right: 0px;
+
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .prateleira {
+        position: absolute;
+        width: 400px;
+        height: 334px;
+        left: 0px;
+        top: 288px;
+    }
+
+    .prateleira__text {
+        position: absolute;
+        width: 150px;
+        height: 29.33px;
+        left: 20px;
+        top: 100px;
+    }
+
+    .prateleira__Arrow-left {
+        visibility: hidden;
+    }
+
+    .prateleira__Arrow-right {
+        visibility: hidden;
+    }
+
+    .prateleira__itens {
+        position: relative;
+        display: block;
+        width: 170px;
+        height: 263.66px;
+        left: 0px;
+        top: 125px;
+    }
+
+    .prateleira__name {
+        width: 120px;
+        left: 25px;
+    }
+
+    .prateleira__button {
+        left: 12.5px;
+        right: 0px;
+    }
+
+    .prateleira__price {
+        position: absolute;
+        left: -20px;
+        right: 0px;
+        top: 195px;
+        bottom: 0px;
+    }
+
+    .prateleira__icon {
+        position: absolute;
+        top: -250px;
+        bottom: 0px;
+        left: -75px;
+        right: 0px;
+
+        background-color: ble;
+        }
 }

@@ -68,3 +68,14 @@
 
     cursor: pointer;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .Contato {
+        position: absolute;
+        width: 198px;
+        height: 102px;
+        left: 61px;
+        top: 200px;
+    }
+}
